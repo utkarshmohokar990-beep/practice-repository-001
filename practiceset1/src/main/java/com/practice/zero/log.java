@@ -11,7 +11,7 @@ public class log {
 
 		int a = 10;
 		int b = 0;
-
+//hello world
 		try {
 			int result = a / b;
 			logger.info("Result is: " + result);
