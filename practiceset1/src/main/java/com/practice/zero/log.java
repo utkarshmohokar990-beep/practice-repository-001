@@ -8,7 +8,7 @@ public class log {
 
 	public static void main(String[] args) {
 		logger.info("Application started");
-
+//good
 		int a = 10;
 		int b = 0;
 //hello world
@@ -18,8 +18,6 @@ public class log {
 		} catch (Exception e) {
 			logger.error("Exception occurred while dividing numbers", e);
 		}
-
-		
 		logger.info("Application finished");
 	}
 }

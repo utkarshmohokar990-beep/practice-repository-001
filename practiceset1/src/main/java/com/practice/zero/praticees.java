@@ -15,7 +15,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class praticees {
 	public static void main(String[] args) throws InterruptedException, IOException {
-
+	
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.timeanddate.com/date/dateadded.html?d1=30&m1=8&y1=2024&type=add&ay=&am=1&aw=&ad=&rec=%22");
 		driver.manage().window().maximize();
@@ -25,6 +25,7 @@ public class praticees {
 		Actions act1 = new Actions(driver);
 		act1.sendKeys(Keys.PAGE_UP).perform();
 		Thread.sleep(3000);
+		System.out.println("heelo0");
  //system
 		// Code down this line will get all cookies of the specific page.
  
